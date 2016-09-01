@@ -1,3 +1,4 @@
-# About£ºBlank
+#DMS Terminal.
+##Beta Version
+*Designed By Jack Wu*
 
-ÂÒ¸ãµÄ¶«Î÷¡£
