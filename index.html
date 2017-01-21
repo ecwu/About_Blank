@@ -53,39 +53,66 @@
           <p class="float-right hidden-md-up">
             <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
           </p>
-          <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+          <div>
+          <div class="input-group">
+          <input type="text" id="time" class="btn btn-secondary btn-lg btn-block form-control" readonly="true" style="font-family: helvetica;text-align: left;">
+          <a href="https://calendar.google.com/calendar/render?pli=1#main_7" class="input-group-addon btn btn-secondary">Google Calendar</a>
           </div>
+          <p></p>
+          <p></p>
+          </div>
+          <h2><b>UIC TERMINAL</b></h2> 
           <div class="row">
             <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h3>MIS</h3>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h3>ISPACE</h3>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h3>Student E-mail</h3>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h3>UIC Homepage</h3>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h3>Heading</h3>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h3>Heading</h3>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
@@ -126,5 +153,30 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
+    <script type="text/javascript">
+      function getTimes() {
+      var d = new Date(); //定义时间对象
+      var year = d.getFullYear(); //返回年份
+      var month = d.getMonth() + 1; //返回月份
+      var day = d.getDate(); //返回日期
+      var dayofweek = d.getDay();//返回星期索引
+      var huors = d.getHours(); //返回小时
+      var minutes = d.getMinutes(); //返回分钟
+      var seconds = d.getSeconds(); //返回秒
+      var arr_week = ["SUN","MON","TUE","WED","THU","FRI","SAT"];//定义星期数组
+      var week = arr_week[dayofweek];//获取今天星期几
+      if (month <= 9) month = "0" + month;//如果月份小于9,在前面加0
+      if (day <= 9) day = "0" + day;//如果天数小于9,在前面加0
+      if (huors <= 9) huors = "0" + huors;//如果小时小于9,在前面加0
+      if (minutes <= 9) minutes = "0" + minutes;//如果分钟小于9,在前面加0
+      if (seconds <= 9) seconds = "0" + seconds;//如果秒数小于9,在前面加0
+      var times ="DATE & TIME : " + year + "/" + month + "/" + day + " - " + week +" "+  huors + ":" + minutes + ":" + seconds;
+      // document.getElementById("time").innerHTML = times;//把获得的时间展示在ID为time的input元素的value值上JS写法
+      $("#time").val(times);//把获得的时间展示在ID为time的input元素的value值上//Jquery写法
+      // document.write(times);
+      setTimeout(getTimes, 1000);//每隔一秒调用一次getTimes函数
+      }
+      getTimes();//调用实时刷新时间函数
+    </script>
   </body>
 </html>
